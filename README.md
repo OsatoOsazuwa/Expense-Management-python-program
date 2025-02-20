@@ -7,6 +7,7 @@
 - [Cloning the Repository](#cloning-the-repository)
 - [Running the Code](#running-the-code)
   - [Prerequisites](#prerequisites)
+  - [Running Tests](#running-tests)
   - [Example Usage](#example-usage)
 - [Contributing](#contributing)
 - [Contact](#contact)
@@ -57,6 +58,20 @@ Ensure you have **Python 3.7+** installed on your system. You can check your Pyt
 ```sh
 python --version
 ```
+### Running Tests
+This project uses `pytest` for testing. To run the tests, install the required dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+
+Then, execute the following command:
+
+```sh
+pytest test_expenses_mgt_program.py
+```
+
+This will run all test cases and provide results on the functionality of the Expense Management Program.
 
 ### Example Usage
 
