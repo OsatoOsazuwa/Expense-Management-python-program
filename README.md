@@ -13,24 +13,38 @@
 
 ## Project Description
 
-The Expense Management System allows users to create, update, and manage financial expenses efficiently. The system consists of two main classes:
+The **Expense Management System** is a lightweight yet powerful tool designed to help users efficiently track and manage their financial expenses. Whether for personal budgeting, business accounting, or financial record-keeping, this system provides a structured way to handle expenses with ease.
 
-1. **Expense Class**: Represents an individual expense with attributes like ID, title, amount, and timestamps.
-2. **ExpenseDB Class**: Manages a collection of expenses, providing functionalities to add, remove, and retrieve expenses.
+The system consists of two primary components:
+
+1. **Expense Class**: This class represents an individual financial transaction with key attributes, including:
+   - A unique identifier (UUID) for each expense.
+   - A title describing the expense.
+   - The amount spent.
+   - The creation and last update timestamps (in UTC format).
+   
+   Additionally, the Expense class allows for updates to existing expenses while ensuring the timestamp reflects the most recent modification.
+
+2. **ExpenseDB Class**: This class functions as a database to store and manage multiple expenses. It provides methods to:
+   - Add new expenses.
+   - Remove existing expenses.
+   - Retrieve expenses by unique ID or title.
+   - Convert all stored expenses into a structured dictionary format for easy data processing.
 
 ## Features
 
-- Create and store expenses with unique IDs
-- Update expense details (title and amount)
-- Retrieve expenses by ID or title
-- Remove expenses from the database
-- View all expenses in a structured dictionary format
+- **Expense Creation:** Generate new expenses with a unique ID, title, and amount.
+- **Expense Modification:** Update existing expenses with a new title or amount, ensuring timestamps are adjusted accordingly.
+- **Expense Lookup:** Retrieve expenses based on unique IDs or search by title.
+- **Expense Removal:** Delete unwanted expenses from the system efficiently.
+- **Data Representation:** Convert expenses into dictionary format for easy integration with other financial tools or applications.
+- **User-Friendly Design:** The system is simple to use, making it ideal for both personal finance management and business expense tracking.
 
 ## Cloning the Repository
 
 To clone this project, make sure you have **Git** installed. Run the following command in your terminal:
 
-```bash
+```sh
 git clone https://github.com/OsatoOsazuwa/Expense-Management-python-program.git
 ```
 
@@ -40,7 +54,7 @@ git clone https://github.com/OsatoOsazuwa/Expense-Management-python-program.git
 
 Ensure you have **Python 3.7+** installed on your system. You can check your Python version using:
 
-```bash
+```sh
 python --version
 ```
 
