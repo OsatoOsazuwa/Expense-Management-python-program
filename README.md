@@ -1,5 +1,17 @@
 # Expense Management System
 
+## Table of Contents
+
+- [Project Description](#project-description)
+- [Features](#features)
+- [Cloning the Repository](#cloning-the-repository)
+- [Running the Code](#running-the-code)
+  - [Prerequisites](#prerequisites)
+  - [Example Usage](#example-usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
 ## Project Description
 
 The Expense Management System allows users to create, update, and manage financial expenses efficiently. The system consists of two main classes:
@@ -20,10 +32,8 @@ The Expense Management System allows users to create, update, and manage financi
 To clone this project, make sure you have **Git** installed. Run the following command in your terminal:
 
 ```sh
-git clone https://github.com/yourusername/expense-management-system.git
+git clone https://github.com/OsatoOsazuwa/Expense-Management-python-program.git
 ```
-
-Replace `yourusername` with the actual GitHub username hosting the repository.
 
 ## Running the Code
 
@@ -34,18 +44,6 @@ Ensure you have **Python 3.7+** installed on your system. You can check your Pyt
 ```sh
 python --version
 ```
-
-### Installation & Execution
-
-1. Navigate to the project directory:
-   ```sh
-   cd expense-management-system
-   ```
-2. Run the Python script:
-   ```sh
-   python main.py
-   ```
-   (Replace `main.py` with the actual entry script name, if different.)
 
 ### Example Usage
 
@@ -76,5 +74,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any issues or suggestions, feel free to open an issue on GitHub or contact the author.
+For any issues or suggestions, feel free to open an issue on GitHub.
 
