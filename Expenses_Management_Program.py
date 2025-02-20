@@ -10,7 +10,7 @@ class Expense:
         self.id = str(uuid.uuid4())
         self.title = title
         self.amount = amount
-        self.created_at = datetime.now(timezone.utc)
+        self.created_at = datetime.now(timezone.utc).isoformat()
         self.updated_at = self.created_at
     
     def update(self, title: str = None, amount: float = None):
@@ -18,7 +18,7 @@ class Expense:
             self.title = title
         if amount is not None:
             self.amount = amount
-        self.updated_at = datetime.now(timezone.utc)
+        self.updated_at = datetime.now(timezone.utc).isoformat()
     
     def to_dict(self):
         return {"id": self.id,
